@@ -4,7 +4,7 @@ import DocumentList from './components/DocumentList'
 import ChatInterface from './components/ChatInterface'
 import './App.css'
 
-const API = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+const API = import.meta.env.VITE_API_URL || 'https://papermind-backend-el4h.onrender.com/'
 
 export default function App() {
   const [documents, setDocuments] = useState([])
